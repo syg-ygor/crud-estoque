@@ -13,6 +13,9 @@ Estrutura do banco de dados:
 
 
 Telas do sistema
+
+A tela utilizei para mostrar meu currículo
+
 ![Captura de tela 2025-01-09 174451](https://github.com/user-attachments/assets/f6ba7a94-25a8-4c05-a13a-f38a8dd361d9)
 ![Captura de tela 2025-01-09 174441](https://github.com/user-attachments/assets/7faf3369-2d88-4a3b-a6e8-0cb101920899)
 ![Captura de tela 2025-01-09 174540](https://github.com/user-attachments/assets/87b844b3-2a37-4e6f-bf43-5e68fbc56d4b)
