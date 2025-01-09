@@ -6,6 +6,8 @@ Para rodar o frontend:
 Para rodar o backend
 - Abra o projeto no Visual Studio
 - Altere a variável "DefaultConnection" no arquivo appsettings.json para a sua conexão de banco de dados
+- Add-Migration NomeDaMigration (rodar no console do NuGet)
+- Update-Database (rodar no console do NuGet)
 - Rode o projeto
   
 Estrutura do banco de dados:
