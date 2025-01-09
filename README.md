@@ -20,3 +20,7 @@ Telas do sistema
 ![Captura de tela 2025-01-09 174517](https://github.com/user-attachments/assets/de33c91e-e1a2-415a-b71f-7fd50cc69801)
 ![Captura de tela 2025-01-09 174504](https://github.com/user-attachments/assets/8f0ae222-4db0-4864-bcae-91fc497050c2)
 ![Captura de tela 2025-01-09 174459](https://github.com/user-attachments/assets/6122d959-4f98-42af-bb15-9ffe7193beea)
+
+Rotas da API
+![image](https://github.com/user-attachments/assets/d154c776-5683-424c-8b64-df52b9956ce7)
+
