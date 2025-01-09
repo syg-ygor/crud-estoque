@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nRUoQy5U29s=",
+  "dgSpecHash": "gFMV7rEKT3k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ygorm\\OneDrive\\Área de Trabalho\\crud-estoque\\api\\api\\api.csproj",
+  "projectFilePath": "C:\\Users\\ygorm\\source\\repos\\api\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ygorm\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ygorm\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

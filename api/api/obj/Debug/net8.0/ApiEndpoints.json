@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "api.Controllers.MaintenancesController",
+    "ContainingType": "MaintenancesController",
     "Method": "GetMaintenances",
     "RelativePath": "api/Maintenances",
     "HttpMethod": "GET",
@@ -20,16 +20,16 @@
     ]
   },
   {
-    "ContainingType": "api.Controllers.MaintenancesController",
-    "Method": "PostMaintenance",
+    "ContainingType": "MaintenancesController",
+    "Method": "CreateMaintenance",
     "RelativePath": "api/Maintenances",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "maintenance",
-        "Type": "api.Models.Maintenance",
+        "Name": "maintenanceDto",
+        "Type": "MaintenancesDto",
         "IsRequired": true
       }
     ],
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "ContainingType": "api.Controllers.MaintenancesController",
+    "ContainingType": "MaintenancesController",
     "Method": "GetMaintenance",
     "RelativePath": "api/Maintenances/{id}",
     "HttpMethod": "GET",
@@ -72,8 +72,8 @@
     ]
   },
   {
-    "ContainingType": "api.Controllers.MaintenancesController",
-    "Method": "PutMaintenance",
+    "ContainingType": "MaintenancesController",
+    "Method": "UpdateMaintenance",
     "RelativePath": "api/Maintenances/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -85,15 +85,15 @@
         "IsRequired": true
       },
       {
-        "Name": "maintenence",
-        "Type": "api.Models.Maintenance",
+        "Name": "maintenanceDto",
+        "Type": "MaintenancesDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "api.Controllers.MaintenancesController",
+    "ContainingType": "MaintenancesController",
     "Method": "DeleteMaintenance",
     "RelativePath": "api/Maintenances/{id}",
     "HttpMethod": "DELETE",
@@ -107,6 +107,78 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OrdersController",
+    "Method": "GetOrders",
+    "RelativePath": "api/Orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[api.Models.Order, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrdersController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Orders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ordersDto",
+        "Type": "OrdersDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "api.Models.Order",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OrdersController",
+    "Method": "GetOrder",
+    "RelativePath": "api/Orders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "api.Models.Order",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "api.Controllers.ProductsController",
@@ -216,5 +288,25 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.Controllers.ProductsController",
+    "Method": "GetTotalValuePerProduct",
+    "RelativePath": "api/Products/total-value",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

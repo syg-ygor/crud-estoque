@@ -10,6 +10,5 @@ namespace api.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Maintenance> Maintenances { get; set; } = default!;
         public DbSet<Order> Orders { get; set; }
-        public DbSet<ProductOrder> ProductsOrders { get; set; }
     }
 }

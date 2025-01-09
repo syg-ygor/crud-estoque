@@ -89,5 +89,18 @@ namespace api.Controllers
 
             return Ok("Excluído com sucesso");
         }
+
+        [HttpGet("total-value")]
+        public async Task<ActionResult<IEnumerable<dynamic>>> GetTotalValuePerProduct()
+        {
+            var totalValues = await _context.Products
+                .GroupBy(p => p.Name)
+                .Select(g => new { Name = g.Key, TotalValue = g.Sum(p => p.Value * p.Quantity), Qtd = g.Sum(p=> p.Quantity) })
+                .ToListAsync();
+
+            return Ok(totalValues);
+        }
     }
+
 }
+
